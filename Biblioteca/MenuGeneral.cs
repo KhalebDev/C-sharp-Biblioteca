@@ -20,10 +20,12 @@ namespace Biblioteca
         ClsEmpleado emp = new ClsEmpleado();
         private void MenuGeneral_Load(object sender, EventArgs e)
         {
+            
             if (emp.CodAcceso == "1") {
                 button1.Enabled = false;
                 btnlibreria.Enabled = false;
                 btnreportes.Enabled = false;
+                
             }
 
         }

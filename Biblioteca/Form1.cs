@@ -38,7 +38,7 @@ namespace Biblioteca
                         emp.CodAcceso = con.privilegioUsuario(txtuser.Text).ToString();
                         MessageBox.Show("Bienvenido al sistema");
                         new MenuGeneral().Show();
-                        this.Close();
+                        this.Hide();
                     }
                     else {
                         MessageBox.Show("Usuario o clave incorrectos");
