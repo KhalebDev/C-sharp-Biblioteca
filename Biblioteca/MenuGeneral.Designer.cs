@@ -36,6 +36,7 @@
             this.btnlector = new System.Windows.Forms.Button();
             this.btnacciones = new System.Windows.Forms.Button();
             this.pnlLibreria = new System.Windows.Forms.Panel();
+            this.btnAutor = new System.Windows.Forms.Button();
             this.btnlibro = new System.Windows.Forms.Button();
             this.btneditorial = new System.Windows.Forms.Button();
             this.btncategoria = new System.Windows.Forms.Button();
@@ -49,7 +50,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlHijo = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnAutor = new System.Windows.Forms.Button();
+            this.btnreportes = new System.Windows.Forms.Button();
             this.PanelMenu.SuspendLayout();
             this.pnloperativo.SuspendLayout();
             this.pnlLibreria.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             this.PanelMenu.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.PanelMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PanelMenu.Controls.Add(this.btnreportes);
             this.PanelMenu.Controls.Add(this.pnloperativo);
             this.PanelMenu.Controls.Add(this.btnacciones);
             this.PanelMenu.Controls.Add(this.pnlLibreria);
@@ -189,6 +191,28 @@
             this.pnlLibreria.Name = "pnlLibreria";
             this.pnlLibreria.Size = new System.Drawing.Size(200, 166);
             this.pnlLibreria.TabIndex = 5;
+            // 
+            // btnAutor
+            // 
+            this.btnAutor.BackColor = System.Drawing.Color.Transparent;
+            this.btnAutor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAutor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAutor.FlatAppearance.BorderSize = 0;
+            this.btnAutor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAutor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnAutor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutor.Image = ((System.Drawing.Image)(resources.GetObject("btnAutor.Image")));
+            this.btnAutor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAutor.Location = new System.Drawing.Point(0, 120);
+            this.btnAutor.Name = "btnAutor";
+            this.btnAutor.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAutor.Size = new System.Drawing.Size(200, 40);
+            this.btnAutor.TabIndex = 8;
+            this.btnAutor.Text = "     Autor";
+            this.btnAutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAutor.UseVisualStyleBackColor = false;
+            this.btnAutor.Click += new System.EventHandler(this.btnAutor_Click);
             // 
             // btnlibro
             // 
@@ -405,27 +429,27 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // btnAutor
+            // btnreportes
             // 
-            this.btnAutor.BackColor = System.Drawing.Color.Transparent;
-            this.btnAutor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAutor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAutor.FlatAppearance.BorderSize = 0;
-            this.btnAutor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAutor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.btnAutor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAutor.Image = ((System.Drawing.Image)(resources.GetObject("btnAutor.Image")));
-            this.btnAutor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAutor.Location = new System.Drawing.Point(0, 120);
-            this.btnAutor.Name = "btnAutor";
-            this.btnAutor.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAutor.Size = new System.Drawing.Size(200, 40);
-            this.btnAutor.TabIndex = 8;
-            this.btnAutor.Text = "     Autor";
-            this.btnAutor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAutor.UseVisualStyleBackColor = false;
-            this.btnAutor.Click += new System.EventHandler(this.btnAutor_Click);
+            this.btnreportes.BackColor = System.Drawing.Color.Transparent;
+            this.btnreportes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnreportes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnreportes.FlatAppearance.BorderSize = 0;
+            this.btnreportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnreportes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnreportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnreportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreportes.ForeColor = System.Drawing.Color.White;
+            this.btnreportes.Image = ((System.Drawing.Image)(resources.GetObject("btnreportes.Image")));
+            this.btnreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreportes.Location = new System.Drawing.Point(0, 696);
+            this.btnreportes.Name = "btnreportes";
+            this.btnreportes.Size = new System.Drawing.Size(200, 40);
+            this.btnreportes.TabIndex = 8;
+            this.btnreportes.Text = "          Reportes";
+            this.btnreportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreportes.UseVisualStyleBackColor = false;
+            this.btnreportes.Click += new System.EventHandler(this.btnreportes_Click);
             // 
             // MenuGeneral
             // 
@@ -475,5 +499,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAutor;
+        private System.Windows.Forms.Button btnreportes;
     }
 }

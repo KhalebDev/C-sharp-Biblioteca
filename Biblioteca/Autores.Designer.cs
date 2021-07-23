@@ -30,6 +30,7 @@
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtedad = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtapellido = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,12 +38,11 @@
             this.txtautor = new System.Windows.Forms.TextBox();
             this.txtautorcod = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btncancel = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnedit = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.dtgautores = new System.Windows.Forms.DataGridView();
-            this.btncancel = new System.Windows.Forms.Button();
-            this.txtedad = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgautores)).BeginInit();
@@ -75,6 +75,14 @@
             this.label4.Size = new System.Drawing.Size(35, 16);
             this.label4.TabIndex = 26;
             this.label4.Text = "Pais";
+            // 
+            // txtedad
+            // 
+            this.txtedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtedad.Location = new System.Drawing.Point(333, 113);
+            this.txtedad.Name = "txtedad";
+            this.txtedad.Size = new System.Drawing.Size(134, 22);
+            this.txtedad.TabIndex = 25;
             // 
             // label3
             // 
@@ -145,8 +153,20 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Acciones";
             // 
+            // btncancel
+            // 
+            this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancel.Location = new System.Drawing.Point(151, 28);
+            this.btncancel.Name = "btncancel";
+            this.btncancel.Size = new System.Drawing.Size(121, 38);
+            this.btncancel.TabIndex = 18;
+            this.btncancel.Text = "Cancelar";
+            this.btncancel.UseVisualStyleBackColor = true;
+            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
+            // 
             // btndelete
             // 
+            this.btndelete.Enabled = false;
             this.btndelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndelete.Location = new System.Drawing.Point(24, 113);
             this.btndelete.Name = "btndelete";
@@ -158,6 +178,7 @@
             // 
             // btnedit
             // 
+            this.btnedit.Enabled = false;
             this.btnedit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnedit.Location = new System.Drawing.Point(24, 69);
             this.btnedit.Name = "btnedit";
@@ -186,25 +207,6 @@
             this.dtgautores.Size = new System.Drawing.Size(807, 286);
             this.dtgautores.TabIndex = 26;
             this.dtgautores.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgautores_CellContentDoubleClick);
-            // 
-            // btncancel
-            // 
-            this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancel.Location = new System.Drawing.Point(151, 28);
-            this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(121, 38);
-            this.btncancel.TabIndex = 18;
-            this.btncancel.Text = "Cancelar";
-            this.btncancel.UseVisualStyleBackColor = true;
-            this.btncancel.Click += new System.EventHandler(this.btncancel_Click);
-            // 
-            // txtedad
-            // 
-            this.txtedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtedad.Location = new System.Drawing.Point(333, 113);
-            this.txtedad.Name = "txtedad";
-            this.txtedad.Size = new System.Drawing.Size(134, 22);
-            this.txtedad.TabIndex = 25;
             // 
             // Autores
             // 

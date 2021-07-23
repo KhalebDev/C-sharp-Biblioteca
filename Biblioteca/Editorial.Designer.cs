@@ -36,11 +36,11 @@
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtcodeditorial = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btncancelar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.dtgeditorial = new System.Windows.Forms.DataGridView();
-            this.btncancelar = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgeditorial)).BeginInit();
@@ -131,6 +131,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Acciones";
             // 
+            // btncancelar
+            // 
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancelar.Location = new System.Drawing.Point(183, 28);
+            this.btncancelar.Name = "btncancelar";
+            this.btncancelar.Size = new System.Drawing.Size(133, 38);
+            this.btncancelar.TabIndex = 18;
+            this.btncancelar.Text = "Cancelar";
+            this.btncancelar.UseVisualStyleBackColor = true;
+            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
+            // 
             // btneliminar
             // 
             this.btneliminar.Enabled = false;
@@ -168,23 +179,14 @@
             // 
             // dtgeditorial
             // 
+            this.dtgeditorial.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtgeditorial.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgeditorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgeditorial.Location = new System.Drawing.Point(22, 256);
             this.dtgeditorial.Name = "dtgeditorial";
-            this.dtgeditorial.Size = new System.Drawing.Size(807, 286);
+            this.dtgeditorial.Size = new System.Drawing.Size(790, 286);
             this.dtgeditorial.TabIndex = 23;
             this.dtgeditorial.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgeditorial_CellContentDoubleClick);
-            // 
-            // btncancelar
-            // 
-            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncancelar.Location = new System.Drawing.Point(183, 28);
-            this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(133, 38);
-            this.btncancelar.TabIndex = 18;
-            this.btncancelar.Text = "Cancelar";
-            this.btncancelar.UseVisualStyleBackColor = true;
-            this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
             // Editorial
             // 

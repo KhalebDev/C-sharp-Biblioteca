@@ -174,14 +174,25 @@
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(123, 22);
             this.txttelefono.TabIndex = 29;
+            this.txttelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttelefono_KeyPress);
             // 
             // npedad
             // 
             this.npedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npedad.Location = new System.Drawing.Point(265, 52);
+            this.npedad.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.npedad.Name = "npedad";
             this.npedad.Size = new System.Drawing.Size(120, 22);
             this.npedad.TabIndex = 27;
+            this.npedad.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
             // label4
             // 

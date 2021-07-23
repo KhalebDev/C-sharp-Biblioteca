@@ -125,5 +125,10 @@ namespace Biblioteca
         {
             openChildFormInPanel(new Autores());
         }
+
+        private void btnreportes_Click(object sender, EventArgs e)
+        {
+            openChildFormInPanel(new Reporteia());
+        }
     }
 }

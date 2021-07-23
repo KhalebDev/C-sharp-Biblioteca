@@ -23,3 +23,6 @@ C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\bin\Debug\Microsoft.ReportViewer.W
 C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Factura.resources
 C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\RdlCompile.cache
 C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\RdlCompile.compiled
+C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Reporteia.resources
+C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.ReporteLibro.resources
+C:\Users\khaleb\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.ReporteLectores.resources

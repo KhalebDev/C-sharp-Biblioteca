@@ -36,6 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbautor = new System.Windows.Forms.ComboBox();
             this.dtppublicado = new System.Windows.Forms.DateTimePicker();
             this.cmbcategoria = new System.Windows.Forms.ComboBox();
             this.cmbIdioma = new System.Windows.Forms.ComboBox();
@@ -48,7 +49,6 @@
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btncancel = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cmbautor = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtglibros)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.npPaginas)).BeginInit();
@@ -152,6 +152,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de Libro";
             // 
+            // cmbautor
+            // 
+            this.cmbautor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbautor.FormattingEnabled = true;
+            this.cmbautor.Location = new System.Drawing.Point(235, 39);
+            this.cmbautor.Name = "cmbautor";
+            this.cmbautor.Size = new System.Drawing.Size(121, 24);
+            this.cmbautor.TabIndex = 39;
+            // 
             // dtppublicado
             // 
             this.dtppublicado.Location = new System.Drawing.Point(76, 163);
@@ -207,7 +216,7 @@
             this.npPaginas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npPaginas.Location = new System.Drawing.Point(486, 98);
             this.npPaginas.Minimum = new decimal(new int[] {
-            18,
+            1,
             0,
             0,
             0});
@@ -215,7 +224,7 @@
             this.npPaginas.Size = new System.Drawing.Size(63, 21);
             this.npPaginas.TabIndex = 33;
             this.npPaginas.Value = new decimal(new int[] {
-            18,
+            1,
             0,
             0,
             0});
@@ -294,15 +303,6 @@
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Acciones";
-            // 
-            // cmbautor
-            // 
-            this.cmbautor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbautor.FormattingEnabled = true;
-            this.cmbautor.Location = new System.Drawing.Point(235, 39);
-            this.cmbautor.Name = "cmbautor";
-            this.cmbautor.Size = new System.Drawing.Size(121, 24);
-            this.cmbautor.TabIndex = 39;
             // 
             // Libros
             // 
