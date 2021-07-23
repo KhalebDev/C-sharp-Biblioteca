@@ -17,7 +17,7 @@ namespace Biblioteca
             try
             {
                 con.Open();
-               MessageBox.Show("Conexion Exitosa");
+               //MessageBox.Show("Conexion Exitosa");
             }
             catch (Exception e)
             {

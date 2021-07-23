@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuGeneral));
             this.PanelMenu = new System.Windows.Forms.Panel();
+            this.btnreportes = new System.Windows.Forms.Button();
             this.pnloperativo = new System.Windows.Forms.Panel();
             this.btnEntregas = new System.Windows.Forms.Button();
             this.btnPrestamo = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlHijo = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnreportes = new System.Windows.Forms.Button();
             this.PanelMenu.SuspendLayout();
             this.pnloperativo.SuspendLayout();
             this.pnlLibreria.SuspendLayout();
@@ -78,6 +78,28 @@
             this.PanelMenu.Name = "PanelMenu";
             this.PanelMenu.Size = new System.Drawing.Size(200, 607);
             this.PanelMenu.TabIndex = 0;
+            // 
+            // btnreportes
+            // 
+            this.btnreportes.BackColor = System.Drawing.Color.Transparent;
+            this.btnreportes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnreportes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnreportes.FlatAppearance.BorderSize = 0;
+            this.btnreportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnreportes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnreportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnreportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnreportes.ForeColor = System.Drawing.Color.White;
+            this.btnreportes.Image = ((System.Drawing.Image)(resources.GetObject("btnreportes.Image")));
+            this.btnreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreportes.Location = new System.Drawing.Point(0, 696);
+            this.btnreportes.Name = "btnreportes";
+            this.btnreportes.Size = new System.Drawing.Size(200, 40);
+            this.btnreportes.TabIndex = 8;
+            this.btnreportes.Text = "          Reportes";
+            this.btnreportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnreportes.UseVisualStyleBackColor = false;
+            this.btnreportes.Click += new System.EventHandler(this.btnreportes_Click);
             // 
             // pnloperativo
             // 
@@ -428,28 +450,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(869, 607);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
-            // 
-            // btnreportes
-            // 
-            this.btnreportes.BackColor = System.Drawing.Color.Transparent;
-            this.btnreportes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnreportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnreportes.FlatAppearance.BorderSize = 0;
-            this.btnreportes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnreportes.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnreportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnreportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnreportes.ForeColor = System.Drawing.Color.White;
-            this.btnreportes.Image = ((System.Drawing.Image)(resources.GetObject("btnreportes.Image")));
-            this.btnreportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnreportes.Location = new System.Drawing.Point(0, 696);
-            this.btnreportes.Name = "btnreportes";
-            this.btnreportes.Size = new System.Drawing.Size(200, 40);
-            this.btnreportes.TabIndex = 8;
-            this.btnreportes.Text = "          Reportes";
-            this.btnreportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnreportes.UseVisualStyleBackColor = false;
-            this.btnreportes.Click += new System.EventHandler(this.btnreportes_Click);
             // 
             // MenuGeneral
             // 

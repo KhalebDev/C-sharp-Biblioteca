@@ -23,6 +23,7 @@ namespace Biblioteca
             if (emp.CodAcceso == "1") {
                 button1.Enabled = false;
                 btnlibreria.Enabled = false;
+                btnreportes.Enabled = false;
             }
 
         }
